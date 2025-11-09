@@ -16,4 +16,4 @@ steps:
     - --location=us-central1-c
     - --cluster=gcp-devops  # if your cluster name is different, use that instead
     - --namespace=gcp-devops-prod
-   logging: CLOUD_LOGGING_ONLY
+   - logging: CLOUD_LOGGING_ONLY
